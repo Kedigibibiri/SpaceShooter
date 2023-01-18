@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1621559840297851273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1621559840297851319}
+  - component: {fileID: 1621559840297851272}
+  m_Layer: 0
+  m_Name: EnemySpawn(-6,6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1621559840297851319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621559840297851273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1621559840297851272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621559840297851273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4988fa2d433414f869fb1b13dbf13117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnSpeed: 2
+  enemyPool:
+  - {fileID: 8323001740891592493, guid: e713dec72c45f4e52bfc8e7877d78192, type: 3}
+  - {fileID: 687914778871038685, guid: 19d06741c65b048f1ba12ddefb27f5a5, type: 3}
+  - {fileID: 1982817562255084397, guid: ee13f595686da4dcfbfaca72a894670c, type: 3}
+  - {fileID: 9110490837978912136, guid: 96b2d9282f25d4ab99ac0e63ff00eb00, type: 3}
+  - {fileID: 3567248892489178623, guid: a0cf924a3767f49eba5bcb3199c4b94d, type: 3}
+  - {fileID: 7649172765006114914, guid: a3227f35a187d4204bdf5e14cc1303cb, type: 3}
+  - {fileID: 3074661919404362243, guid: c214b2697cc824d52930e52730a45aca, type: 3}
+  - {fileID: 5875960453790731074, guid: d9149c36a6b1e4f35b5dd252371f7742, type: 3}
+  - {fileID: 178623582674614934, guid: ed112be297e0644e08082e2f13487075, type: 3}
+  enemyCount: 0
+  maxEnemyCount: 0
+  upgradeScreen: {fileID: 0}
+  mainScreen: {fileID: 0}
+  player: {fileID: 0}
